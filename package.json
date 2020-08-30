@@ -1,0 +1,9 @@
+{
+  "name": "asynchronous",
+  "version": "1.0.0",
+  "description": "Asynchornous programming in JavaScript",
+  "main": "index.js",
+  "repository": "https://github.com/henriquetty/asynchronous",
+  "author": "henriquetty",
+  "license": "MIT"
+}
