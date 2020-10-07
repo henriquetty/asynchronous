@@ -6,5 +6,7 @@
   "repository": "https://github.com/henriquetty/asynchronous",
   "author": "henriquetty",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
 }

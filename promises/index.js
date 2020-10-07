@@ -22,3 +22,25 @@ calc(19)
   .finally(() => {
     console.log("The promise has been executed");
   });
+
+//simple promise
+
+//Api request (also see async-await for similar example)
+
+function apiRequest(api) {
+  return new Promise((resolve, reject) => {
+    const axios = require("axios");
+    axios
+      .get(api)
+      .then((res) => {
+        resolve(res);
+      })
+      .catch((error) => {
+        reject(error);
+      });
+  });
+}
+
+apiRequest("https://www.boredapi.com/api/activity").then((res) => {
+  console.log(res.data);
+});
